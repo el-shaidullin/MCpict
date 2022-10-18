@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    margin-bottom: 10px;
+}
+
+.wrapper.line {
+    position: relative;
+    background-color: #1d1d1b;
+    color: white;
+    margin: 0;
+}
+
+.center {
+    width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.center h2 {
+    font-weight: normal;
+}
+
+.wrapper h1 {
+    margin: 0;
+    font: 40px "Times New Roman";
+}
+
+.wrqpper p {
+    font: 16px/1.4 Arial;
+    text-align: justify;
+}
+
+.img1, .img2, .img3 {
+    position: absolute;
+    top: 50px;
+    left: 1350px;
+}
+
+.img1 {
+    top: 50px;
+}
+
+.img2 {
+    top: 490px;
+}
+
+.img3 {
+    top: 1140px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
